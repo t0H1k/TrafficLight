@@ -11,7 +11,13 @@ import SwiftUI
 struct TrafficLightApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ColorLightView()
         }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ColorLightView()
     }
 }
